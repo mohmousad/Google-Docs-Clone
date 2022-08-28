@@ -10,7 +10,7 @@ mongoose.connect("mongodb+srv://mohmousad:mohmosnaw99@cluster0.7gf0asq.mongodb.n
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://google-docs-clone-six-lime.vercel.app/",
     methods: ["GET", "POST"],
   },
 });
